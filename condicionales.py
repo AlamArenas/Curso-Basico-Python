@@ -1,9 +1,11 @@
 #condicional if
-calificacion = input("La calificacion de la AZ900")
-calificaicon = int (calificacion)
+calificacion = input("La calificacion de la AZ900 ")
+calificacion = int (calificacion)
 #el identado es muy importante
 if calificacion < 700 :
     print("no paso")#si es menor a 700 muestra esto
+elif calificacion == 700 :
+   print("PANZAZO")    
 elif calificacion > 1000 :
     print("miente no puedes tener esa calificacion")
 else :
